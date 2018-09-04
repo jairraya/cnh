@@ -26,8 +26,11 @@ int main(void)
     else if(cnh == 'e' || cnh == 'E'){
         printf("Voce pode dirigir veiculos com unidade acoplada acima de 6 toneladas");
     }
-    
-    puts("\n\n");
+    else{
+        printf("CNH invalida");
+    }
+
+    puts("\n\n");//Semelhante ao printf, mas serve apenas para string
     
     return 0;
 }
